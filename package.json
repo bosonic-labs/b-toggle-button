@@ -1,16 +1,25 @@
 {
   "name": "b-toggle-button",
   "version": "0.1.0",
-  "description": "b-toggle-button ========",
+  "description": "A Bosonic toggle button element.",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bosonic/b-toggle-button.git"
+  },
+  "author": "Enguerran Colson <engcolson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bosonic/b-toggle-button/issues"
+  },
   "devDependencies": {
     "bosonic-test-tools": "*",
-    "grunt-bosonic": "*"
+    "grunt-bosonic": ">=0.4.0"
   },
   "dependencies": {
-    "bosonic": "*"
+    "bosonic": ">=0.4.0"
   }
 }
